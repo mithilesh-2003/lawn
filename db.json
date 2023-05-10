@@ -1,0 +1,338 @@
+{
+  "emploies": {
+    "a@a.com": {
+      "name": "apple",
+      "password": "pFTtYFoLecxJCmSBpOUqodHjCcCwYmLT9w11cgOQ.lW1uc7INTy3lDnPS17KFfdBMr7FsRQ8t1cCWGptyE0pdUT4AIv1iqv5vhqbEjcgczX5f6Kv//q42aLuDT6CbGi0Vs+BN07FJPhKTl9sI7ln4ZjS1Q8+aJu0x",
+      "role": "admin"
+    },
+    "b@b.com": {
+      "name": "banana",
+      "password": "iUvUEgyvT7BwHycIEz/e5ZTegvbf113G6gHOW21K.2AOP1xkttAMBDyjZqYnmcLZYoRuRmrO0j6LmMAsdBQ0Z4zDhoClxFdROfEr5g2oG2TlclRtWWgMJ7LJavbAWkNl+IRzdpVj8E8UoUjbqC6jier28hHmZFAld",
+      "role": "m1"
+    },
+    "c@c.com": {
+      "name": "chiku",
+      "password": "YCE5kE6sqBavkDQ3aBzUHlK0vChkY/4kjWbnRNgT.p54GoDnH07pNE8Vq63natei39WhVGb7rgQgCub2EV5VTIouO92ZFxMf3PjZswfmT9AmzmwEZQXgkbvF70RTNjZcR1dXmNPdRU3gaUXUy0WVnDYVkxszfw9Qd",
+      "role": "m2",
+      "address": "kjjhsdvchsvchvcsdhcvdfv",
+      "phone": "dhjfvhgd"
+    }
+  },
+  "users": {
+    "c@c.com": {
+      "name": "kiwi",
+      "password": "123456",
+      "phone": 9578465487,
+      "altPhone": 9578465487,
+      "address": "khamaria"
+    },
+    "k@k.com": {
+      "name": "shjsdvcsh",
+      "password": "05YqvZl4F/YRE1I58XdOTZIUm8BOG2Eb8thYTcZ+.tSwGGNRAw6AGXyCW8YoZ1Sg4+QTvwpsugSdYD4c5xyHG6/YH5wBgLsqkXVro3bHRHPIWyoA1tqwm03FFrBBKV8JDrhATPMlidQWt8edv4z2eusknu2/E1RHW"
+    }
+  },
+  "categories": [
+    {
+      "id": 1,
+      "name": "decoration"
+    },
+    {
+      "id": 2,
+      "name": "room"
+    },
+    {
+      "id": 3,
+      "name": "meal"
+    },
+    {
+      "id": 4,
+      "cid": 3,
+      "name": "starter"
+    },
+    {
+      "id": 5,
+      "cid": 3,
+      "name": "dinner"
+    },
+    {
+      "id": 6,
+      "cid": 3,
+      "name": "desert"
+    },
+    {
+      "id": 7,
+      "cid": 3,
+      "name": "beverage"
+    },
+    {
+      "id": 8,
+      "cid": 5,
+      "name": "sabji"
+    },
+    {
+      "id": 9,
+      "cid": 5,
+      "name": "chawal"
+    },
+    {
+      "id": 10,
+      "cid": 5,
+      "name": "roti"
+    },
+    {
+      "id": 11,
+      "cid": 5,
+      "name": "daal"
+    },
+    {
+      "id": 12,
+      "cid": 3,
+      "name": "bartan"
+    },
+    {
+      "id": 13,
+      "cid": 3,
+      "name": "serving"
+    }
+  ],
+  "assets": [
+    {
+      "id": 1,
+      "cid": 1,
+      "name": "gold",
+      "description": "hcvhvghsdcvhsjdcvsdhjc",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "cid": 1,
+      "name": "platinum",
+      "description": "hcvhvghsdcvhsjdcvsdhjc",
+      "price": 15000
+    },
+    {
+      "id": 3,
+      "cid": 2,
+      "name": "non_ac",
+      "price": 1500,
+      "max": 5
+    },
+    {
+      "id": 4,
+      "cid": 2,
+      "name": "ac",
+      "price": 2000,
+      "max": 10
+    },
+    {
+      "id": 5,
+      "cid": 4,
+      "name": "pkoda",
+      "price": 20
+    },
+    {
+      "id": 6,
+      "cid": 4,
+      "name": "fulki",
+      "price": 30
+    },
+    {
+      "id": 7,
+      "cid": 4,
+      "name": "chaat",
+      "price": 20
+    },
+    {
+      "id": 8,
+      "cid": 8,
+      "name": "shahi_paneer",
+      "price": 50
+    },
+    {
+      "id": 9,
+      "cid": 8,
+      "name": "kadai_paneer",
+      "price": 40
+    },
+    {
+      "id": 10,
+      "cid": 8,
+      "name": "kalogi_krela",
+      "price": 15
+    },
+    {
+      "id": 11,
+      "cid": 8,
+      "name": "kalogi_bangan",
+      "price": 20
+    },
+    {
+      "id": 12,
+      "cid": 8,
+      "name": "chokha_bangan",
+      "price": 10
+    },
+    {
+      "id": 13,
+      "cid": 9,
+      "name": "jeera_rice",
+      "price": 20
+    },
+    {
+      "id": 14,
+      "cid": 9,
+      "name": "polaw",
+      "price": 15
+    },
+    {
+      "id": 15,
+      "cid": 10,
+      "name": "baati",
+      "price": 20
+    },
+    {
+      "id": 16,
+      "cid": 10,
+      "name": "tawa_roti",
+      "price": 15
+    },
+    {
+      "id": 17,
+      "cid": 10,
+      "name": "non_roti",
+      "price": 30
+    },
+    {
+      "id": 18,
+      "cid": 11,
+      "name": "tdaka_daal",
+      "price": 25
+    },
+    {
+      "id": 19,
+      "cid": 11,
+      "name": "daal_makhani",
+      "price": 35
+    },
+    {
+      "id": 20,
+      "cid": 6,
+      "name": "dahibada",
+      "price": 20
+    },
+    {
+      "id": 21,
+      "cid": 6,
+      "name": "rajbhog",
+      "price": 25
+    },
+    {
+      "id": 22,
+      "cid": 6,
+      "name": "rasgulla",
+      "price": 15
+    },
+    {
+      "id": 23,
+      "cid": 6,
+      "name": "chocolate icecream",
+      "price": 40
+    },
+    {
+      "id": 24,
+      "cid": 6,
+      "name": "butter scotch",
+      "price": 35
+    },
+    {
+      "id": 25,
+      "cid": 7,
+      "name": "chai",
+      "price": 5
+    },
+    {
+      "id": 26,
+      "cid": 7,
+      "name": "coffee",
+      "price": 6
+    },
+    {
+      "id": 27,
+      "cid": 7,
+      "name": "coldrink",
+      "price": 10
+    },
+    {
+      "id": 28,
+      "cid": 12,
+      "name": "bada bhagona",
+      "price": 10
+    },
+    {
+      "id": 29,
+      "cid": 12,
+      "name": "chhota bhagona",
+      "price": 8
+    },
+    {
+      "id": 30,
+      "cid": 12,
+      "name": "kalchul",
+      "price": 5
+    },
+    {
+      "id": 31,
+      "cid": 12,
+      "name": "plta",
+      "price": 5
+    },
+    {
+      "id": 32,
+      "cid": 12,
+      "name": "donga",
+      "price": 12
+    },
+    {
+      "id": 33,
+      "cid": 12,
+      "name": "chhota kadai",
+      "price": 15
+    },
+    {
+      "id": 34,
+      "cid": 12,
+      "name": "bada kadai",
+      "price": 20
+    },
+    {
+      "id": 35,
+      "cid": 13,
+      "name": "fiber plate",
+      "price": 2
+    },
+    {
+      "id": 36,
+      "cid": 13,
+      "name": "bone chini plate",
+      "price": 40
+    },
+    {
+      "id": 37,
+      "cid": 13,
+      "name": "plastic chamach",
+      "price": 1
+    },
+    {
+      "id": 38,
+      "cid": 13,
+      "name": "lkdi chamach",
+      "price": 2
+    },
+    {
+      "id": 39,
+      "cid": 13,
+      "name": "tissue paper",
+      "price": 0.5
+    }
+  ]
+}
